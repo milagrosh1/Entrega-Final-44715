@@ -1,0 +1,167 @@
+/*===============header================*/
+
+     
+h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+
+    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {color:#4C5129;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+li a.active, li a:hover{
+    background: #000000;
+    transition: .5s;
+  }
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#4C5129;
+     
+ }
+/*===================SLIDER DE IMAGENES==========================*/
+body{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100%;
+
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+
+}
+.column img{
+    margin-top: 5px;
+}
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background-color: #212811;
+    min-height: 50px;
+}
+footer p{
+    color:#6c757d;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#ffffff;
+}
+
+nav {
+    background-color: #212811;
+    color:#fff;
+}
+
+
+#menu a {
+    color: #fff;
+    font-family: system-ui;
+}
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
