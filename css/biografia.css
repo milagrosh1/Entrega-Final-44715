@@ -57,13 +57,13 @@ li a.active, li a:hover{
 
 
 .box {
-  width: 80%;
-  height: 600px;
+  
+ 
   background: rgba(0, 0, 0, .8);
   padding: 20px;
   text-align: center;
-  margin: 10px auto;
-  margin-top: 4%;
+  margin: 10px auto 190px;
+ 
   color: white;
   font-family: 'Century Gothic', sans-serif;
   border-radius: 15px;
@@ -117,6 +117,8 @@ li a.active, li a:hover{
 footer {
   background-color: #212811;
   min-height: 50px;
+  position: fixed;
+  bottom: 0;
 }
 footer p{
   color:#6c757d;
@@ -153,8 +155,9 @@ nav {
   width:90%;
   margin:auto;
   padding-top:50px;    
- }
-
+ 
+}
+}
 
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
@@ -205,4 +208,4 @@ nav {
       text-align: center;
   }
 }
-}
+

@@ -141,6 +141,7 @@ li a.active, li a:hover{
 footer {
     background-color: #212811;
     min-height: 50px;
+
 }
 footer p{
     color:#6c757d;
@@ -229,7 +230,7 @@ nav {
     }
 }
 .contacto-Map {
-    max-width: 80%;
+    
     height: 100%;
     margin: auto;
     justify-content: center;

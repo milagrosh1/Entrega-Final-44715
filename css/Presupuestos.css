@@ -56,8 +56,8 @@ li a.active, li a:hover{
  
   
   .box {
-    width: 80%;
-    height: 800px;
+   
+    height: 60%;
     background: rgba(0, 0, 0, .4);
     padding: 60px 20px;
     text-align: center;
@@ -118,6 +118,8 @@ li a.active, li a:hover{
 footer {
   background-color: #212811;
   min-height: 50px;
+  position: fixed;
+  bottom: 0;
 }
 footer p{
   color:#6c757d;
@@ -156,7 +158,7 @@ nav {
     padding-top:50px;    
    }
  
-
+  }
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
 
@@ -205,4 +207,11 @@ nav {
         justify-content: center !important;
         text-align: center;
     }
+
 }
+@media (max-width:  515px){
+.box{
+  padding: 0px 5px;
+}
+
+} 
