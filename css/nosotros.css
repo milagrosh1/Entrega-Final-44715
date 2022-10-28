@@ -114,24 +114,17 @@ li a.active, li a:hover{
 /*=========================FOOTER================================*/
 
 footer {
-    background-color:#212811;
-    min-height: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-
-
-
-  }
+  background-color: #212811;
+  min-height: 50px;
+}
 footer p{
   color:#6c757d;
   text-align:center;
 }
 #iconos  i {
-    font-size: 26px;
-    padding: 0 8px;
-    color:#ffffff;
+  font-size: 26px;
+  padding: 0 8px;
+  color:#ffffff;
 }
 
 nav {

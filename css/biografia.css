@@ -29,6 +29,7 @@ body {color:#4C5129;
   background: url("/img/Fotos/_IAN0186.jpg") no-repeat;
   background-size: cover;
 }
+
 li a.active, li a:hover{
   background: #000000;
   transition: .5s;
