@@ -1,0 +1,26 @@
+h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#menu li a {
+  color: $color4;
+  &.active, &:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  button {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

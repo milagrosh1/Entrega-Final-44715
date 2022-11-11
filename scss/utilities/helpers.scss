@@ -1,0 +1,31 @@
+.textColor {
+  color: $color4;
+}
+
+.justifyText {
+  text-align: justify;
+}
+
+.font {
+  font-style: $font-family;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hyperlink {
+  color: $color1;
+
+  &:hover {
+    color: $color5;
+
+    &:biografia {
+      color: $color1
+    }
+  }
+}
+
+  
+    
+    

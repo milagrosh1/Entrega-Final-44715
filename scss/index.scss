@@ -1,0 +1,26 @@
+/* FONTS */
+@import "fonts/fonts";
+
+/* UTILITIES & BASE */
+ // FIJATE PARA QUE LO VAS A USAR
+@import "utilities/_variables";
+@import "utilities/_mixins";
+@import "utilities/helpers";
+
+/* LAYOUT */
+@import "layout/header";
+@import "layout/footer";
+@import "layout/background";
+
+/* PAGES */
+
+@import "pages/home";
+@import "pages/biografia";
+@import "pages/galeria";
+@import "pages/nosotros";
+@import "pages/presupuestos";
+@import "pages/proyectos";
+
+/* MEDIA QUERIES */
+
+@import "layout/mediaqueries";
