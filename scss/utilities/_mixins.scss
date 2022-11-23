@@ -1,0 +1,10 @@
+@mixin box-img() { 
+  border-radius: 50%;
+}
+
+@mixin tituloPrincipal() {
+  font-size: 28px;
+  color: $color4;
+  margin-bottom: '2rem';
+}
+  

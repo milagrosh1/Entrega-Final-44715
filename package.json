@@ -1,0 +1,26 @@
+{
+  "name": "2dapreentregacoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --source-map -w scss/index.scss compiledCss/index.css",
+    "sass:debug": "sass --source-map scss/index.scss compiledCss/index.css",
+    "sass:release": " scss/index.scss compiledCss/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milagrosh1/2daPreentregacoder44715.git"
+  },
+  "keywords": [],
+  "author": "Milagros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milagrosh1/2daPreentregacoder44715/issues"
+  },
+  "homepage": "https://github.com/milagrosh1/2daPreentregacoder44715#readme",
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
+}

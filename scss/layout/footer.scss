@@ -1,0 +1,27 @@
+
+
+
+    footer {
+      background-color: $color1;
+      min-height: 50px;
+      bottom: 0;
+    }
+    footer p{
+      color:$color2;
+      text-align:center;
+    }
+    #iconos  i {
+      font-size: 26px;
+      padding: 0 8px;
+      color:$color4;
+    }
+    
+    nav {
+      background-color: $color1;
+    }
+    
+    #menu a {
+      color: $color4;
+      font-family: system-ui;
+    }
+    
