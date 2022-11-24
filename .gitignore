@@ -14,3 +14,7 @@ package.json
 /package.json
 **package.json
 /package.json/
+.vscode/
+/.vscode
+**.vscode
+/.vscode/
