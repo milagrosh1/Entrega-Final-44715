@@ -1,9 +1,16 @@
 h1 {
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
 }
   
+h2 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+ 
 @keyframes aparecer {
   0% {
     opacity: 0;
