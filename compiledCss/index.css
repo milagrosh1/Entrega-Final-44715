@@ -30,6 +30,7 @@
 
 /* LAYOUT */
 h1 {
+<<<<<<< HEAD
   animation-duration: 1s;
   animation-name: aparecer;
   animation-iteration-count: infinite;
@@ -40,6 +41,11 @@ h2 {
   animation-name: aparecer;
   animation-iteration-count: infinite;
   text-align: center;
+=======
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+>>>>>>> d5d73f52c08fecc4dc8216ccdbab823a42fcd674
 }
 
 @keyframes aparecer {
@@ -64,6 +70,10 @@ h2 {
 footer {
   background-color: #212811;
   min-height: 50px;
+<<<<<<< HEAD
+=======
+  position: absolute;
+>>>>>>> d5d73f52c08fecc4dc8216ccdbab823a42fcd674
   bottom: 0;
 }
 
@@ -212,7 +222,11 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
 .fotos-galeria {
+=======
+img {
+>>>>>>> d5d73f52c08fecc4dc8216ccdbab823a42fcd674
   width: 100%;
 }
 
@@ -325,6 +339,10 @@ body {
 footer {
   background-color: #212811;
   min-height: 50px;
+<<<<<<< HEAD
+=======
+  position: fixed;
+>>>>>>> d5d73f52c08fecc4dc8216ccdbab823a42fcd674
   bottom: 0;
 }
 
